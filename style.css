@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    background-color: aqua;
+
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.gridContainer{
+    
+    display: flex;
+    flex-direction: column;
+    height: 95Vh;
+
+    width: 95vh;
+   
+}
+.divSquareX{
+ display: flex;
+ flex-grow: 1;
+ 
+
+ 
+}
+.divSquareY{
+flex-grow: 1;
+background-color: black;
+/* border: 0.1px solid grey; */
+
+}
