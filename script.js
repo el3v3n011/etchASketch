@@ -28,11 +28,16 @@
     }
     function newGrid() {
         let userInput = prompt("Enter No of colums Beetween 4 and 100");
+        if(userInput>100){
+            userInput=prompt("Enter No of colums Beetween 4 and 100");
+        }
+        else{
+
+        
 
         removegrid();
         createGrid(userInput, userInput, gridContainer);
-
-
+}
     }
     function createGrid(rows, cols, container) {
     
